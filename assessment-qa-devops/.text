@@ -1,0 +1,9 @@
+Feature                 Test Cases                      Expected result                     Actual result
+getAllBots              click button "see-all"          run getAllBots                      no result
+drawFive                click button "draw"             5 robots rendered                   robots render correctly
+chooseBot               click button "bot-btn"          robot added to duo                  Robot is added correctly
+putBotBack              click button "bot-btn"          robot returned to list              Robot is returned to list correctly
+duel                    click button "duel"             duel function rating                Duel is ran, but if result is a win. Integer is added to losses.
+
+
+test was ran on chrome browser. 
